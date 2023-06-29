@@ -20,7 +20,7 @@ const SectionOne = () => {
         className="h-full w-1/2 blur-4xl absolute right-0"
       />
 
-      <div className="mx-auto pt-28 px-5 pb-10 text-center font-semibold max-w-4xl md:pb-20">
+      <div className="mx-auto pt-28 px-5 pb-10 text-center font-semibold max-w-5xl md:pb-20">
         <h1 className="text-4xl leading-normal pb-3 md:text-[56px]">
           A Sound <span className="text-green-0">Education</span> is the Key to
           Success
@@ -52,8 +52,8 @@ const SectionOne = () => {
         <div className="relative max-w-max mx-auto">
           <Image
             src="/images/hero-image.svg"
-            loading="eager"
-            priority
+            placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mPk4YmuBwABkwD0dSWltwAAAABJRU5ErkJggg=="
             width={908}
             height={548}
             className="h-auto w-auto mx-auto"

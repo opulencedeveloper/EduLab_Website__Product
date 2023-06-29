@@ -22,7 +22,7 @@ const sectionTwoContents = [
 
 const SectionTwo = () => {
   return (
-    <div className="px-5 px-10 mt-80 mb-40 text-center">
+    <div className="px-5 px-10 mt-80 mb-48 text-center">
       <div className="text-3xl font-semibold text-blue-0 mb-3">
         Benefits of Joining Us?
       </div>
@@ -34,7 +34,7 @@ const SectionTwo = () => {
         {sectionTwoContents.map((content, index) => (
           <div
             key={index}
-            className="bg-white mb-2 max-w-xs space-y-8 px-5 pt-7 pb-16 rounded-md"
+            className="bg-white mb-2 max-w-xs space-y-8 h-80 px-5 pt-7 pb-16 rounded-md"
           >
             <div className="mx-auto bg-blue-1 h-20 w-20 flex items-center rounded-full shadow-xl overflow-hidden">
               <Image

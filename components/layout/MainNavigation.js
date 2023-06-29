@@ -37,7 +37,7 @@ const MainNavigation = () => {
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full flex items-center py-6 bg-blue-0 justify-between  px-5 md:px-10">
+    <header className="sticky top-0 z-40 w-full h-20 flex items-center bg-blue-0 justify-between  px-5 md:px-10">
       {/* <div className="fixed top-0 right-5 text-xs text-white">
         Site developed by opulencedeveloper
       </div> */}
@@ -67,7 +67,7 @@ const MainNavigation = () => {
             </Link>
           })}{" "}
         
-      <div className="flex font-semibold  h-12 border border-[1px] border-green-0 rounded-md h-full px-4 border text-lg text-primaryshade hidden lg:flex">
+      <div className="flex font-semibold py-3 border border-[1px] border-green-0 rounded-md px-4 border text-lg text-primaryshade hidden lg:flex">
         {" "}
         
         <select
