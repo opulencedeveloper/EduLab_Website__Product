@@ -56,8 +56,8 @@ const SectionOne = () => {
           <Image
             src="/images/hero-image.svg"
             alt="hero image"
-            placeholder="blur"
-            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
+            loading="eager"
+            priority
             width={908}
             height={548}
             className="h-auto w-auto mx-auto"
