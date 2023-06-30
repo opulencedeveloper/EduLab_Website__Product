@@ -50,7 +50,7 @@ const SectionOne = () => {
         </div>
       </div>
 
-      <div className="absolute w-full">
+      <div className="absolute h-[20rem] w-full md:h-[34.2rem]">
         {" "}
         <div className="relative max-w-max mx-auto">
           <Image
@@ -60,7 +60,10 @@ const SectionOne = () => {
             priority
             width={908}
             height={548}
-            className="h-auto w-auto mx-auto"
+            className="h-full w-auto mx-auto" 
+            placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
+         
           />
           <Image
             src="/images/icon/play-icon-white.svg"
