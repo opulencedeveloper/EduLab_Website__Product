@@ -56,8 +56,6 @@ const SectionOne = () => {
           <Image
             src="/images/hero-image.svg"
             alt="hero image"
-            loading="eager"
-            priority
             width={908}
             height={548}
             className="h-full w-auto mx-auto" 
