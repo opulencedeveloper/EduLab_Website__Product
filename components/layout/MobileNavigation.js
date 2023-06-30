@@ -17,7 +17,7 @@ const MobileNavigation = () => {
   const activeLink = router.pathname;
 
   return (
-    <div className="flex flex-col bg-blue-0 text-white w-94 h-full w-64 pt-4 pl-[1rem] lg:hidden">
+    <div className="flex flex-col bg-blue-0 text-white w-94 h-screen w-64 pt-4 pl-[1rem] lg:hidden">
       <div className="flex justify-center items-center space-x-1 mb-4">
         <h1 className="text-xl font-medium text-white mb-4 mt-8">EduLab</h1>
       </div>

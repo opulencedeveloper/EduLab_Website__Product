@@ -39,9 +39,7 @@ const MainNavigation = () => {
 
   return (
     <header className="sticky top-0 z-40 w-full h-20 flex items-center bg-blue-0 justify-between  px-5 md:px-10">
-      {/* <div className="fixed top-0 right-5 text-xs text-white">
-        Site developed by opulencedeveloper
-      </div> */}
+     
        <Portal isOpen={isOpen} onClick={toggleDrawer}>
         <div
           className={`fixed inset-y-0 z-50 -left-72 shadow-lg lg:hidden transform  ${
