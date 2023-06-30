@@ -22,8 +22,8 @@ const sectionTwoContents = [
 
 const SectionTwo = () => {
   return (
-    <div className="px-5 px-10 mt-80 mb-48 text-center">
-      <div className="text-3xl font-semibold text-blue-0 mb-3">
+    <div className="px-5 px-10 mt-36 mb-48 text-center md:mt-80">
+      <div className="text-2xl font-semibold text-blue-0 mb-3 md:text-3xl">
         Benefits of Joining Us?
       </div>
       <p className="text-gray-1 font-light max-w-3xl mx-auto mb-10">
@@ -39,6 +39,7 @@ const SectionTwo = () => {
             <div className="mx-auto bg-blue-1 h-20 w-20 flex items-center rounded-full shadow-xl overflow-hidden">
               <Image
                 src={`/images/icon/${content.image}-icon.svg`}
+                alt={content.image}
                 loading="eager"
                 priority
                 width={31}

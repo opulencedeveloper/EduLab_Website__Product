@@ -7,7 +7,7 @@ const icons = [
 ];
 const Footer = () => {
   return (
-    <footer className="bg-blue-0 text-lg px-5 text-white font-normal pb-10 pt-28 md:text-2xl md:px-10">
+    <footer className="bg-blue-0 text-base px-5 text-white font-normal pb-10 pt-12 md:text-2xl md:pt-28 md:px-10">
       <div className="flex flex-col space-y-8 justify-between xl:flex-row xl:space-y-0">
         {" "}
           <div className="space-y-2 md:space-y-8">

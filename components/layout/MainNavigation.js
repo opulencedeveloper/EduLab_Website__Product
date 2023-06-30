@@ -3,10 +3,10 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import MobileNavigation from "./MobileNavigation";
+import Portal from "../UI/Portal";
+import handleWhatsAppClick from "@/helpers/whatsapp";
 
-// import MobileNavigation from "./MobileNavigation";
-// import handleWhatsAppClick from "@/helpers/whatsapp";
-// import Portal from "../UI/Portal";
 
 const linkContent = [
   { title: "Home", link: "/" },
@@ -15,6 +15,7 @@ const linkContent = [
   { title: "Pricing", link: "" },
   { title: "Blog", link: "" },
 ];
+
 let navAnimationClass = "";
 
 const MainNavigation = () => {
@@ -41,15 +42,15 @@ const MainNavigation = () => {
       {/* <div className="fixed top-0 right-5 text-xs text-white">
         Site developed by opulencedeveloper
       </div> */}
-      {/* <Portal isOpen={isOpen} onClick={toggleDrawer}>
+       <Portal isOpen={isOpen} onClick={toggleDrawer}>
         <div
           className={`fixed inset-y-0 z-50 -left-72 shadow-lg lg:hidden transform  ${
             isOpen ? "translate-x-full" : "translate-x-0"
           } transition-transform duration-300 ease-in-out`}
         >
-          <MobileNavigation />
+          <MobileNavigation /> 
         </div>
-      </Portal> */}
+      </Portal>
        
         <h1 className="text-xl font-medium text-white">EduLab</h1>
     
@@ -58,7 +59,7 @@ const MainNavigation = () => {
           {linkContent.map((content, index) => {
             const textColor = activeLink === content.link ? "text-white" : "text-gray-0";
             return <Link
-              // onClick={handleWhatsAppClick}
+               onClick={handleWhatsAppClick}
               key={index}
               className={textColor}
               href={content.link}
