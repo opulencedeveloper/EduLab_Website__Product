@@ -22,7 +22,7 @@ const sectionTwoContents = [
 
 const SectionTwo = () => {
   return (
-    <div className="px-5 px-10 mt-36 mb-48 text-center md:mt-80">
+    <div className="px-5 px-10 mb-48 text-center mt-80">
       <div className="text-2xl font-semibold text-blue-0 mb-3 md:text-3xl">
         Benefits of Joining Us?
       </div>

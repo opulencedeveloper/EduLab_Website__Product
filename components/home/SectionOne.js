@@ -52,13 +52,13 @@ const SectionOne = () => {
 
       <div className="absolute h-[20rem] w-full md:h-[34.2rem]">
         {" "}
-        <div className="relative max-w-max mx-auto">
+        <div className="relative h-48 max-w-xs mx-auto md:max-w-4xl md:h-full">
           <Image
             src="/images/hero-image.svg"
             alt="hero image"
             width={908}
             height={548}
-            className="h-full w-auto mx-auto" 
+            className="h-full w-auto mx-auto object-contain" 
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
          
@@ -72,7 +72,7 @@ const SectionOne = () => {
             height={96}
             className="h-16 w-16 cursor-pointer absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
           />
-          <div className="absolute bottom-7 left-5 flex items-center space-x-2  md:bottom-14 md:left-10">
+          <div className="absolute bottom-7 left-5 flex items-center space-x-2  md:bottom-20 md:left-16">
             <Image
               src="/images/group-image.svg"
               loading="eager"
